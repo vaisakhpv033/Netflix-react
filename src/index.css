@@ -18,7 +18,7 @@
     clip-path: ellipse(50% 65% at 50% 100%);
     background: radial-gradient(
                     circle at 50% 0%,
-                    rgba(30, 52, 141, 0.4) 20%,
+                    rgba(47, 72, 172, 0.4) 20%,
                     rgba(0, 0, 0, 0.1) 70%
                 ),rgb(0, 0, 0);
     z-index: 100;

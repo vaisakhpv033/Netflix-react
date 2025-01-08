@@ -22,9 +22,19 @@ export default function Hero() {
           <h2 className="text-lg md:text-xl lg:text-xl mt-4">
             Starts at ₹149. Cancel any time.
           </h2>
-          <button className="bg-red-600 text-white px-6 py-2.5 rounded-full font-semibold mt-8 hover:bg-red-700">
-            Get Started
-          </button>
+          <h4 className="text-sm md:text-sm mt-6">Ready to watch? Enter your email to create or restart your membership.</h4>
+          <div className="flex flex-col max-md:px-4 md:flex-row gap-4 w-full max-w-[600px] mt-3">
+            <div className="flex-grow">
+              <input
+                type="email"
+                placeholder="Email address"
+                className=" text-white px-6 py-2.5 rounded w-full bg-transparent border border-white focus:outline-2 focus:outline-green-700"   
+              />          
+            </div>
+            <button className="bg-red-600 text-white px-6 py-2.5 rounded font-bold hover:bg-red-700">
+              Get Started 
+            </button>
+          </div>
         </div>
       </div>
 
@@ -36,7 +46,7 @@ export default function Hero() {
         
 
          {/* Bottom fade */}
-         <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-[#0d0d22] to-transparent"></div>
+         <div className="absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-[#000000] to-transparent z-[1000]"></div>
     </div>
   );
 }
