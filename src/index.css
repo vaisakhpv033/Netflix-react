@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@layer components{
+  .custom-select {
+    outline: 2px double transparent;
+    outline-offset: 2px;
+  }
+  .custom-select:focus {
+    outline-color: white;
+  }
+  .custom-select option{
+    @apply text-black
+  }
+
+  .curved-border{
+    clip-path: ellipse(50% 65% at 50% 100%);
+    background: radial-gradient(
+                    circle at 50% 0%,
+                    rgba(30, 52, 141, 0.4) 20%,
+                    rgba(0, 0, 0, 0.1) 70%
+                ),rgb(0, 0, 0);
+    z-index: 100;
+  }
+
+  .red-border{
+    clip-path: ellipse(50% 70% at 50% 100%);
+    background: linear-gradient(
+                    to right,
+                    rgba(33, 13, 22, 1) 16%,
+                    rgba(184, 40, 105, 1),
+                    rgba(229, 9, 20, 1),
+                    rgba(184, 40, 105, 1),
+                    rgba(33, 13, 22, 1) 84%
+                );
+    margin-top: -.25rem;
+    width:100%;
+    height: 10%;
+    bottom:0;
+    position: absolute;
+    z-index: 1;
+  }
+  .curved-line{
+    .curved-line {
+      clip-path: path('M 0 100 Q 50 0 100 100 T 200 100');
+      background-color: #00008B; /* Dark blue color */
+      height: 100px; /* Adjust height as needed */
+      width: 100%;
+      position: relative;
+  }
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
