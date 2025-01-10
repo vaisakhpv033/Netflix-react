@@ -50,6 +50,14 @@
       position: relative;
   }
   }
+
+  .bg-card{
+    background: linear-gradient(
+                    149deg,
+                    #192247 0%,
+                    #210e17 96.86%
+                );
+  }
 }
 
 body {
