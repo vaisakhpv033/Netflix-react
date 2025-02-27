@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import MoreReasons from './components/MoreReasons';
+import TrendingNow from './components/TrendingNow';
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <main className='px-[10%]'>
+        <TrendingNow />
       <MoreReasons />
       <FAQ />
       </main>

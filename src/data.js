@@ -62,3 +62,54 @@
       imageUrl: "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/kids/en.png"
     }
   ]
+
+
+
+    // Sample trending movies data
+  export  const trendingMovies = [
+      {
+        id: 1,
+        title: "Stranger Things",
+        image: "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?w=500&h=280&fit=crop",
+        rating: "98% Match",
+        year: "2022",
+        seasons: "4 Seasons",
+        description: "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl."
+      },
+      {
+        id: 2,
+        title: "Wednesday",
+        image: "https://images.unsplash.com/photo-1509281373149-e957c6296406?w=500&h=280&fit=crop",
+        rating: "95% Match",
+        year: "2023",
+        seasons: "1 Season",
+        description: "Smart, sarcastic and a little dead inside, Wednesday Addams investigates a murder spree while making new friends — and foes — at Nevermore Academy."
+      },
+      {
+        id: 3,
+        title: "Dark",
+        image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=500&h=280&fit=crop",
+        rating: "93% Match",
+        year: "2020",
+        seasons: "3 Seasons",
+        description: "A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery that spans three generations."
+      },
+      {
+        id: 4,
+        title: "Black Mirror",
+        image: "https://images.unsplash.com/photo-1601944179066-29786cb9d32a?w=500&h=280&fit=crop",
+        rating: "96% Match",
+        year: "2023",
+        seasons: "6 Seasons",
+        description: "This sci-fi anthology series explores a twisted, high-tech near-future where humanity's greatest innovations and darkest instincts collide."
+      },
+      {
+        id: 5,
+        title: "The Witcher",
+        image: "https://images.unsplash.com/photo-1514539079130-25950c84af65?w=500&h=280&fit=crop",
+        rating: "91% Match",
+        year: "2023",
+        seasons: "3 Seasons",
+        description: "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts."
+      }
+    ];
